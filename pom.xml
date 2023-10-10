@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- You may freely edit this file. See commented blocks below for -->
-<!-- some examples of how to customize the build. -->
-<!-- (If you delete it and reopen the project it will be recreated.) -->
-<!-- By default, only the Clean and Build commands use this build script. -->
-<!-- Commands such as Run, Debug, and Test only use this build script if -->
-<!-- the Compile on Save feature is turned off for the project. -->
-<!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
-<!-- in the project's Project Properties dialog box.-->
-<project name="RENT_A_CAR_MANAGEMENT_SYSTEM" default="default" basedir=".">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>your.group.id</groupId>
+    <artifactId>your-artifact-id</artifactId>
+    <version>1.0.0</version>
     <description>Builds, tests, and runs the project RENT_A_CAR_MANAGEMENT_SYSTEM.</description>
-    <import file="nbproject/build-impl.xml"/>
-    <!--
+    
 
     There exist several targets which are by default empty and which can be 
     used for execution of your tasks. These targets are usually executed 
